@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">GhienPhim</string>
+    <string name="Logo_img">Logo image</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="dangxuat">ĐĂNG XUẤT</string>
+    <string name="dangky">ĐĂNG KÝ</string>
+    <string name="andanh">ẨN DANH</string>
+    <string name="copyright">Fairytail@2020</string>
+    <string name="register_img">register_img</string>
+    <string name="email">Email</string>
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="xacnhanmatkhau">Xác nhận mật khẩu</string>
+    <string name="tuoi">Tuổi</string>
+    <string name="TheLoai">Thể loại</string>
+    <string name="item1">Hành Động</string>
+    <string name="item2">Lãng Mạn</string>
+    <string name="item3">Kinh Dị</string>
+    <string name="item4">Khoa Học Viễn Tưởng</string>
+    <string name="item5">Hài Hước</string>
+    <string name="item6">Phiêu Lưu</string>
+    <string name="item7">Hoạt Hình</string>
+    <string name="item8">Chiến Tranh</string>
+    <string name="item9">Cổ Trang</string>
+
+    <string name="quocgia">Quốc Gia</string>
+    <string name="favorite_text">PHIM YÊU THÍCH</string>
+    <string name="film_name">Name of the film</string>
+    <string name="history_text">Lịch sử phim</string>
+    <string name="his_film_name">Name of history film</string>
+    <string name="date">23/12</string>
+    <string name="search_text">KẾT QUẢ TÌM KIẾM</string>
+    <string name="rating_point"> 8.6  </string>
+
+    //Homescreen
+    <string name="LogIn_Img">LogIn_Img</string>
+    <string name="btn_QG">Quốc Gia</string>
+    <string name="btn_TL">Thể Loại</string>
+    <string name="btn_N">Năm</string>
+    <string name="btn_moreOp">...</string>
+
+    <string name="qg_My">Mỹ</string>
+    <string name="qg_Nga">Nga</string>
+    <string name="qg_Nhat">Nhật</string>
+    <string name="qg_Phap">Pháp</string>
+    <string name="qg_Han">Hàn Quốc</string>
+    <string name="qg_Trung">Trung Quốc</string>
+    <string name="qg_Viet">Việt Nam</string>
+    <string name="qg_Thai">Thái Lan</string>
+    <string name="qg_Anh">Anh Quốc</string>
+    <string name="qg_Philip">Philipines</string>
+    <string name="nam_1980">1980</string>
+    <string name="nam_1981">1981</string>
+    <string name="nam_1982">1982</string>
+    <string name="nam_1983">1983</string>
+    <string name="nam_1984">1984</string>
+
+
+    //profile screen
+    <string name="favfilm">Phim Yêu Thích</string>
+    <string name="his">Lịch Sử</string>
+    <string name="changpas">Đổi Mật Khẩu</string>
+    <string name="comment">Viết Bình Luận</string>
+    <string name="num_com">Bình Luận @addvariable???</string>
+    <string name="user_img">user_img</string>
+    <string name="profile_name">profile_name</string>
+    <string name="confirm_pass">Xác nhận mật khẩu:</string>
+    <string name="new_pass">Mật khẩu mới:</string>
+    <string name="cur_pass">Mật khẩu hiện tại:</string>
+    <string name="confirm">XÁC NHẬN</string>
+    <string name="logo">logo</string>
+
+    //error label for logind
+    <string name="noti">THÔNG BÁO</string>
+    <string name="blankF">Bạn chưa điền đủ thông tin!</string>
+    <string name="wrongP">Mật khẩu không đủ yêu cầu \n (từ 8 - 20 ký tự)</string>
+    <string name="wrongA">Tuổi không hợp lệ (0 - 100)</string>
+    <string name="invalidE">Email không hợp lệ!</string>
+    <string name="conDifPas">Mật khẩu xác nhận không khớp!</string>
+    <string name="noti_info">Tên đăng nhập hoặc mật khẩu không đúng.\n Bạn vui lòng nhập lại.</string>
+    <string name="exist_acc">Tài khoản đã tồn tại.\n Vui lòng nhập username hoặc email khác!!!</string>
+    <string name="wrong_acc">Mật khẩu không đúng.\n Vui lòng nhập lại!!!</string>
+    <string name="disconnect">Vui lòng kiểm tra lại kết nối Internet!!!</string>
+    <string name="new_confirm_Pass">Vui lòng kiểm tra lại xác nhận mật khẩu!!!</string>
+    <string name="new_current_Pass">Sai mật khẩu hiện tại!!!</string>
+    <string name="unavai_acc">Tài khoản không hợp lệ.\n Vui lòng nhập tài khoản khác hoặc đăng ký một tài khoản mới!!!</string>
+    <string name="non_exist_f">Phim này không tồn tại trong hệ thống!!!</string>
+    <string name="log_in">Vui lòng đăng nhập trước!!!</string>
+
+    //history screen
+    <string name="his_name1">Nhà tù Shawshank</string>
+    <string name="his_name2">12 Angry Men</string>
+    <string name="his_name3">Vùng Đất Linh Hồn</string>
+    <string name="his_name4">Bố già</string>
+    <string name="date1">1/2</string>
+    <string name="date2">1/2</string>
+    <string name="date3">1/2</string>
+    <string name="date4">1/2</string>
+    <string name="date5">1/2</string>
+    <string name="pass_cond">Mật khẩu từ 8 - 20 ký tự</string>
+
+</resources>

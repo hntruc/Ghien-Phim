@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my"
+        android:title="@string/qg_My" />
+    <item
+        android:id="@+id/nga"
+        android:title="@string/qg_Nga" />
+    <item
+        android:id="@+id/han"
+        android:title="@string/qg_Han" />
+    <item
+        android:id="@+id/nhat"
+        android:title="@string/qg_Nhat" />
+    <item
+        android:id="@+id/trung"
+        android:title="@string/qg_Trung" />
+    <item
+        android:id="@+id/viet"
+        android:title="@string/qg_Viet" />
+    <item
+        android:id="@+id/anh"
+        android:title="@string/qg_Anh" />
+    <item
+        android:id="@+id/philip"
+        android:title="@string/qg_Philip" />
+
+
+
+</menu>

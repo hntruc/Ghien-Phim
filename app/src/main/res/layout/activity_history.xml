@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/favorite_img"
+    tools:context=".history">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/his_1"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/search_img1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/his_name1"
+                    app:srcCompat="@drawable/demo_film" />
+
+                <TextView
+                    android:id="@+id/his_name1"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:text="@string/his_name1"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#0E0E0E"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/date1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/date1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/his_2"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fav_img2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/his_name2"
+                    app:srcCompat="@drawable/demo_film2" />
+
+                <TextView
+                    android:id="@+id/his_name2"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/film_name"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name2"
+                    android:textSize="18sp"
+                    android:textColor="#0E0E0E"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/date1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/his_3"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/demo_film3"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/his_name3"
+                    app:srcCompat="@drawable/demo_film3" />
+
+                <TextView
+                    android:id="@+id/his_name3"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name3"
+                    android:textSize="18sp"
+                    android:textColor="#0E0E0E"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/date3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/date1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/his_4"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/his_img4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/his_name4"
+                    app:srcCompat="@drawable/demo_film4" />
+
+                <TextView
+                    android:id="@+id/his_name4"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name4"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name4"
+                    android:textSize="18sp"
+                    android:textColor="#0E0E0E"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/date4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/date1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/his_5"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/his_img5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/film_name"
+                    app:srcCompat="@drawable/demo_film" />
+
+                <TextView
+                    android:id="@+id/his_name5"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name1"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name1"
+                    android:textColor="#0E0E0E"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/date5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/date1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/return_btn3"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/return_button"
+        android:theme="@style/normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/home_his"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_button"
+        android:theme="@style/normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/history_text"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button_lightyellow"
+        android:backgroundTint="#2F3E46"
+        android:contentDescription="@string/history_text"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/history_text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/trash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#00FFEB3B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/history_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trash" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

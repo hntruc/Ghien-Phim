@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123488291428",
+    "firebase_url": "https://com-example-ghienphim-default-rtdb.firebaseio.com",
+    "project_id": "com-example-ghienphim",
+    "storage_bucket": "com-example-ghienphim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123488291428:android:8a27331b4c97b73272ed71",
+        "android_client_info": {
+          "package_name": "com.example.ghienphim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123488291428-mp856g59e5td48j7o1ejh7s89r5l88ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdcGt0ztg8_3ma_EiC9Yten83yjt9R4LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123488291428-mp856g59e5td48j7o1ejh7s89r5l88ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

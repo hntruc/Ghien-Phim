@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favorite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/favorite_img"
+    android:contentDescription="@string/film_name"
+    tools:context=".Favorite">
+
+    <Button
+        android:id="@+id/return_btn2"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/return_button"
+        android:theme="@style/normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/home_fav"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_button"
+        android:theme="@style/normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/favorite_text"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button_lightyellow"
+        android:backgroundTint="#2F3E46"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/favorite_text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/fav_1"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/search_img1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/film_name"
+                    android:paddingStart="17dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    app:srcCompat="@drawable/demo_film" />
+
+                <TextView
+                    android:id="@+id/fav_name1"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name1"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name1"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageButton
+                    android:id="@+id/del_img1"
+                    android:layout_width="25dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFEB3B"
+                    app:srcCompat="@drawable/star_del" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fav_2"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/fav_img2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/his_name2"
+                    android:paddingStart="17dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    app:srcCompat="@drawable/demo_film2" />
+
+                <TextView
+                    android:id="@+id/fav_name2"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name2"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name2"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageButton
+                    android:id="@+id/del_img2"
+                    android:layout_width="25dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFEB3B"
+                    app:srcCompat="@drawable/star_del" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fav_3"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/fav_img3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:paddingStart="17dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    app:srcCompat="@drawable/demo_film3" />
+
+                <TextView
+                    android:id="@+id/fav_name3"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name3"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name3"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageButton
+                    android:id="@+id/del_img3"
+                    android:layout_width="25dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFEB3B"
+                    app:srcCompat="@drawable/star_del" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fav_4"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/fav_img4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:paddingStart="17dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    app:srcCompat="@drawable/demo_film4" />
+
+                <TextView
+                    android:id="@+id/fav_name4"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name4"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name4"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageButton
+                    android:id="@+id/del_img4"
+                    android:layout_width="25dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFEB3B"
+                    app:srcCompat="@drawable/star_del" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fav_5"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/fav_img5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:paddingStart="17dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    app:srcCompat="@drawable/demo_film" />
+
+                <TextView
+                    android:id="@+id/fav_name5"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name1"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name1"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageButton
+                    android:id="@+id/del_img5"
+                    android:layout_width="25dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFEB3B"
+                    app:srcCompat="@drawable/star_del" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fav_6"
+                android:layout_width="415dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/fav_img6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0"
+                    android:paddingStart="17dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    app:srcCompat="@drawable/demo_film2" />
+
+                <TextView
+                    android:id="@+id/fav_name6"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:contentDescription="@string/his_name2"
+                    android:focusable="true"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/his_name2"
+                    android:textSize="18sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ImageButton
+                    android:id="@+id/del_img6"
+                    android:layout_width="25dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFEB3B"
+                    app:srcCompat="@drawable/star_del" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

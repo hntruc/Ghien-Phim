@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/option_img"
+    tools:context=".Option">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:contentDescription="@string/Logo_img"
+        android:translationY="0px"
+        app:srcCompat="@drawable/option_logo" />
+
+    <Button
+        android:id="@+id/btn_dangnhap"
+        style="@style/button_style"
+        android:hint="@string/dangnhap" />
+
+    <Button
+        android:id="@+id/btn_dangky"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:hint="@string/dangky" />
+
+    <Button
+        android:id="@+id/btn_andanh"
+        style="@style/button_style"
+        android:hint="@string/andanh" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:translationY="90dp" />
+
+
+
+
+</LinearLayout>
